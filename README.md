@@ -1,8 +1,4 @@
-<p align="center">
-
-<img src="/StelpolvoSans.png" title="Stelpolvo Sans" alt="Stelpolvo Sans" width="600px" />
-
-</p>
+![Stelpolvo Sans](/Stelpolvo_Sans.png "Stelpolvo Sans")
 
 ## Introduction / 简介
 
