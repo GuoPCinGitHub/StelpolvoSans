@@ -1,4 +1,4 @@
-![Stelpolvo Sans](/Stelpolvo_Sans.png "Stelpolvo Sans")
+![Stelpolvo Sans](/StelpolvoSans.png "Stelpolvo Sans")
 
 ## Introduction / 简介
 
