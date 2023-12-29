@@ -6,7 +6,7 @@
 
 ## Introduction / 简介
 
-Stelpolvo Sans is based on letters of Cosmetic language based on Esperanto from anime Stardust Telepath. The name stelpolvo means stardust in Esperanto.
+Stelpolvo Sans is based on letters of Cosmetic language from anime Stardust Telepath, which are derived from Esperanto letters. The name stelpolvo means stardust in Esperanto.
 
 Stelpolvo Sans 字体基于动画《星灵感应》中以世界语为原型的宇宙语字母制作而成。Stelpolvo 在世界语中意为星尘。
 
