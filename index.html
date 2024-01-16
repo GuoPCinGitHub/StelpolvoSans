@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,22 @@
             document.getElementById('result').innerText = document.getElementById('tryout').value;
         }
     </script>
-    <link rel="stylesheet" href="StelpolvoSans.css">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    <header>
+        <div class="button">?</div>
+        <div class="content">
+            <strong>使用说明 / Usage</strong>
+            <hr>
+            <p>A ~ P (a ~ p) / R ~ V (r ~ v) / Z (z) 可直接通过键盘输入。</p>
+            <p>Ĉ (ĉ) / Ĝ (ĝ) / Ĥ (ĥ) / Ĵ (ĵ) / Ŝ (ŝ) / Ŭ (ŭ) 亦可直接输入，或通过输入对应无修饰符字母，后加 X (x) 得到，如输入“cx”得到“ĉ”。</p>
+            <p>A ~ P (a ~ p) / R ~ V (r ~ v) / Z (z) can be typed directly by keyboard.</p>
+            <p>Ĉ (ĉ) / Ĝ (ĝ) / Ĥ (ĥ) / Ĵ (ĵ) / Ŝ (ŝ) / Ŭ (ŭ) can also be typed directly. Or you can type letter without
+                modifier first, then type X (x) to get the corresponding letter. For example, type "cx" to get "ĉ".</p>
+        </div>
+    </header>
     <main>
         <p class="cl">Stelpolvo Sans</p>
         <p class="en">Stelpolvo Sans</p>
@@ -19,7 +33,8 @@
         <input type="text" name="tryout" id="tryout" pattern="[A-PR-VXZĈĜĤĴŜŬa-pr-vxzĉĝĥĵŝŭ]*" oninput="generate()">
         <label for="result">输出 / Output</label>
         <div name="result" id="result"></div>
-        <p class="info">© 2024 <a href="https://guopcingithub.github.io/" target="_blank">Saki Itomi</a> | <a href="https://guopcingithub.github.io/StelpolvoSans" target="_blank">Repository</a></p>
+        <p class="info">© 2024 <a href="https://guopcingithub.github.io/" target="_blank">Saki Itomi</a> | <a
+                href="https://guopcingithub.github.io/StelpolvoSans" target="_blank">Repository</a></p>
     </main>
     <div class="cirklo-1"></div>
     <div class="cirklo-2"></div>
@@ -27,4 +42,5 @@
     <div class="cirklo-4"></div>
     <div class="cirklo-5"></div>
 </body>
+
 </html>

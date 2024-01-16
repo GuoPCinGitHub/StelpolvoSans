@@ -42,13 +42,56 @@ main {
     z-index: 6;
 }
 
+header {
+    position: absolute;
+    top: 0.3cm;
+    right: 0.3cm;
+    z-index: 7;
+}
+
+header p {
+    margin: .5em 0;
+}
+
+header .button {
+    background: #fff;
+    border-radius: 50%;
+    color: #393939;
+    font-family: Inter, "LXGW Neo XiHei", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    user-select: none;
+    cursor: help;
+}
+
+header .content {
+    display: none;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: #FFF;
+    border-radius: .5em;
+    margin: .5em;
+    padding: .5em;
+    min-width: 350px;
+    max-width: 90vw;
+}
+
+header .button:hover ~ .content,
+header .button:focus ~ .content {
+    display: initial;
+}
+
 p {
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     margin: 0;
 }
 
 p.cl {
-    font-family: "Stelpolvo Sans";
+    font-family: "Stelpolvo Sans", Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 60px;
     line-height: 80px;
 }
@@ -61,42 +104,46 @@ label {
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 25px;
     margin-top: 1cm;
-    margin-bottom: .3cm;
+    margin-bottom: 0.3cm;
 }
 
-input, div#result {
+input,
+div#result {
     background: #cacdfe;
     border: none;
-    border-radius: .1cm;
+    border-radius: 0.1cm;
     box-shadow: 0 0.1em 0.3em #cacdfe;
     color: #1c2bfc;
     font-size: 25px;
     line-height: 1cm;
     text-align: center;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
     padding: 0.2cm;
     width: 70%;
     min-height: 1cm;
 }
 
-input:focus, div#result:hover, div#result:focus {
+input:focus,
+div#result:hover,
+div#result:focus {
     box-shadow: 0 0.1em 0.7em #f1f1ff;
     background: #f1f1ff;
     outline: none;
-    transition: all .2s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 div#result {
-    font-family: "Stelpolvo Sans";
+    font-family: "Stelpolvo Sans", Inter, "LXGW Neo XiHei", sans-serif;
     resize: none;
     white-space: break-spaces;
     word-wrap: break-word;
     overflow-y: auto;
 }
 
-input::selection, #result::selection {
+input::selection,
+#result::selection {
     background: #184ff9;
-    color: #F1F1FF;
+    color: #f1f1ff;
 }
 
 p.info {
@@ -107,13 +154,13 @@ p.info {
 a {
     color: #fff;
     text-decoration: underline;
-    text-underline-offset: .1cm;
-    transition: color .2s ease-out;
+    text-underline-offset: 0.1cm;
+    transition: color 0.2s ease-out;
 }
 
 a:hover {
     color: #dddfff;
-    transition: color .2s ease-out;
+    transition: color 0.2s ease-out;
 }
 
 .cirklo-1 {
@@ -167,15 +214,20 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    p.cl, p.en {
+    p.cl,
+    p.en {
         font-size: 1.7rem !important;
     }
 
-    p, div, label, input {
+    main p,
+    div,
+    label,
+    input {
         font-size: 1.3rem !important;
     }
 
-    input, div#result {
+    input,
+    div#result {
         line-height: 1.3rem;
         min-height: 1.3rem;
     }
