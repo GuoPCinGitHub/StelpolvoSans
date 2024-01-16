@@ -6,6 +6,12 @@ Stelpolvo Sans 字体基于动画《星灵感应》中以世界语为原型的�
 
 Stelpolvo Sans is based on letters of Cosmetic language from anime *Stardust Telepath*, which are derived from Esperanto letters. The name stelpolvo means stardust in Esperanto.
 
+## 试用 / Tryout
+
+[点击此处在线试用。](/StelpolvoSans.html)
+
+[Click here to tryout online.](/StelpolvoSans.html)
+
 ## 安装 / Installation
 
 您可直接前往 [StelpolvoSans-Regula.ttf](/StelpolvoSans-Regula.ttf) 下载 TTF 文件后安装。WOFF 文件亦有提供，可根据需求取用。

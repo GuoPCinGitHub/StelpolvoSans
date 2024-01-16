@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stelpolvo Sans</title>
+    <script>
+        function generate() {
+            document.getElementById('result').innerText = document.getElementById('tryout').value;
+        }
+    </script>
+    <link rel="stylesheet" href="StelpolvoSans.css">
+</head>
+<body>
+    <main>
+        <p class="cl">Stelpolvo Sans</p>
+        <p class="en">Stelpolvo Sans</p>
+        <label for="tryout">在下方输入测试文本 / Text below</label>
+        <input type="text" name="tryout" id="tryout" pattern="[A-PR-VXZĈĜĤĴŜŬa-pr-vxzĉĝĥĵŝŭ]*" oninput="generate()">
+        <label for="result">输出 / Output</label>
+        <div name="result" id="result"></div>
+        <p class="info">© 2024 <a href="https://guopcingithub.github.io/" target="_blank">Saki Itomi</a> | <a href="https://guopcingithub.github.io/StelpolvoSans" target="_blank">Repository</a></p>
+    </main>
+    <div class="cirklo-1"></div>
+    <div class="cirklo-2"></div>
+    <div class="cirklo-3"></div>
+    <div class="cirklo-4"></div>
+    <div class="cirklo-5"></div>
+</body>
+</html>
