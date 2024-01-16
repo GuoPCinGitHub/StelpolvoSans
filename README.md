@@ -8,9 +8,9 @@ Stelpolvo Sans is based on letters of Cosmetic language from anime *Stardust Tel
 
 ## 试用 / Tryout
 
-[点击此处在线试用。](/StelpolvoSans.html)
+[点击此处在线试用。](https://guopcingithub.github.io/StelpolvoSans/)
 
-[Click here to tryout online.](/StelpolvoSans.html)
+[Click here to try it out online.](https://guopcingithub.github.io/StelpolvoSans/)
 
 ## 安装 / Installation
 
