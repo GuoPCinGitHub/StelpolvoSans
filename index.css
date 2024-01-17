@@ -2,13 +2,12 @@
     font-family: "Stelpolvo Sans";
     src:
         local("Stelpolvo Sans"),
-        url("StelpolvoSans-Regula.woff2") format("woff2"),
+        url("https://fastly.jsdelivr.net/gh/GuoPCinGitHub/StelpolvoSans@main/StelpolvoSans-Regula.woff2") format("woff2"),
         url("https://cdn.jsdelivr.net/gh/GuoPCinGitHub/StelpolvoSans@main/StelpolvoSans-Regula.woff2") format("woff2");
 }
 
 ::selection {
     background: #fff5;
-    backdrop-filter: blur(5px);
     color: #042e7d;
 }
 
@@ -58,7 +57,7 @@ header .button {
     box-shadow: 0 .1em .3em #f1f1ff;
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 25px;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     width: 500px;
     max-width: 85vw;
     max-height: 90%;
@@ -83,7 +82,7 @@ header .button {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(0 -50%);
+    transform: translate(0, -50%);
     width: 24px;
     height: 24px;
     cursor: pointer;
