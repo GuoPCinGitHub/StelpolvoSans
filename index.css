@@ -58,7 +58,7 @@ header .button {
     box-shadow: 0 .1em .3em #f1f1ff;
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 25px;
-    translate: -50% -50%;
+    transform: translate(-50% -50%);
     width: 500px;
     max-width: 85vw;
     max-height: 90%;
@@ -83,7 +83,7 @@ header .button {
     position: absolute;
     top: 50%;
     right: 0;
-    translate: 0 -50%;
+    transform: translate(0 -50%);
     width: 24px;
     height: 24px;
     cursor: pointer;
