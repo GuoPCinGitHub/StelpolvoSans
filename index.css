@@ -33,7 +33,11 @@ header {
     position: relative;
     background: #FFFA;
     backdrop-filter: blur(5px);
-    font-size: 1.5rem;
+    color: #042e7d;
+    font-family: Inter, "LXGW Neo XiHei", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
     padding: .2cm;
     z-index: 999;
 }
