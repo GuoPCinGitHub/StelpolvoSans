@@ -27,6 +27,64 @@ body {
     overflow: hidden;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: #FFFA;
+    backdrop-filter: blur(5px);
+    font-size: 1.5rem;
+    padding: .2cm;
+    z-index: 999;
+}
+
+header .button {
+    margin: 0 .5em;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #f1f1ff;
+    border-radius: .1cm;
+    box-shadow: 0 .1em .3em #f1f1ff;
+    font-family: Inter, "LXGW Neo XiHei", sans-serif;
+    font-size: 25px;
+    translate: -50% -50%;
+    width: 500px;
+    max-width: 85vw;
+    max-height: 90%;
+    padding: .5em;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+#content.closed {
+    display: none;
+}
+
+#content.open {
+    display: initial;
+}
+
+#content > #head {
+    position: relative;
+}
+
+#content #close {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    translate: 0 -50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -42,61 +100,18 @@ main {
     z-index: 6;
 }
 
-header {
-    position: absolute;
-    top: 0.3cm;
-    right: 0.3cm;
-    z-index: 7;
-}
-
-header p {
-    margin: .5em 0;
-}
-
-header .button {
-    background: #fff;
-    border-radius: 50%;
-    color: #393939;
-    font-family: Inter, "LXGW Neo XiHei", sans-serif;
-    font-size: 25px;
-    text-align: center;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    user-select: none;
-    cursor: help;
-}
-
-header .content {
-    display: none;
-    position: absolute;
-    top: 45px;
-    right: 0;
-    background: #FFF;
-    border-radius: .5em;
-    margin: .5em;
-    padding: .5em;
-    min-width: 350px;
-    max-width: 90vw;
-}
-
-header .button:hover ~ .content,
-header .button:focus ~ .content {
-    display: initial;
-}
-
-p {
+main p {
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     margin: 0;
 }
 
-p.cl {
+main p.cl {
     font-family: "Stelpolvo Sans", Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 60px;
     line-height: 80px;
 }
 
-p.en {
+main p.en {
     font-size: 40px;
 }
 
@@ -141,12 +156,18 @@ div#result {
 }
 
 input::selection,
-#result::selection {
+#result::selection,
+#content *::selection {
     background: #184ff9;
     color: #f1f1ff;
 }
 
-p.info {
+input:invalid {
+    background: #ffd8d8;
+    box-shadow: 0 .1em .7em #ffd8d8;
+}
+
+main p.info {
     margin-top: 1.5cm;
     font-size: 20px;
 }
@@ -219,10 +240,11 @@ a:hover {
         font-size: 1.7rem !important;
     }
 
-    main p,
+    p,
     div,
     label,
-    input {
+    input,
+    #content {
         font-size: 1.3rem !important;
     }
 
