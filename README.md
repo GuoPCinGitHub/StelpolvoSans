@@ -20,6 +20,8 @@ You can go to [StelpolvoSans-Regula.ttf](/StelpolvoSans-Regula.ttf) directly to 
 
 ## 使用方法 / Usage
 
+![Alfabeto](/Alfabeto.png "Alfabeto")
+
 A ~ P (a ~ p) / R ~ V (r ~ v) / Z (z) 可直接通过键盘输入。
 
 Ĉ (ĉ) / Ĝ (ĝ) / Ĥ (ĥ) / Ĵ (ĵ) / Ŝ (ŝ) / Ŭ (ŭ) 亦可直接输入，或通过输入对应无修饰符字母，后加 X (x) 得到，如输入“cx”得到“ĉ”。
