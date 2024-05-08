@@ -12,13 +12,13 @@ Stelpolvo Sans is based on letters of Cosmic language from anime *Stardust Telep
 
 [Click here to try it out online.](https://guopcingithub.github.io/StelpolvoSans/)
 
-## 安装 / Installation
+## 下载 / Download
 
-您可直接前往 [StelpolvoSans-Regula.ttf](/StelpolvoSans-Regula.ttf) 下载 TTF 文件后安装。WOFF 文件亦有提供，可根据需求取用。
+您可直接前往 [Release 页面](https://github.com/GuoPCinGitHub/StelpolvoSans/releases) 下载 TTF 文件。WOFF 文件亦有提供，可根据需求取用。
 
-You can go to [StelpolvoSans-Regula.ttf](/StelpolvoSans-Regula.ttf) directly to download TTF file and install. WOFF files are also provided, you can use according to your need.
+You can go to [Release page](https://github.com/GuoPCinGitHub/StelpolvoSans/releases) directly to download TTF file. WOFF files are also provided, you can use according to your need.
 
-## 使用方法 / Usage
+## 使用 / Usage
 
 ![Alfabeto](/Alfabeto.png "Alfabeto")
 
