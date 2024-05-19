@@ -4,7 +4,7 @@
 
 Stelpolvo Sans 字体基于动画《星灵感应》中以世界语为原型的宇宙语字母制作而成。Stelpolvo 在世界语中意为星尘。
 
-Stelpolvo Sans is based on letters of Cosmic language from anime *Stardust Telepath*, which are derived from Esperanto letters. The name stelpolvo means stardust in Esperanto.
+Stelpolvo Sans is based on letters of Cosmic language from anime *Stardust Telepath*, which are derived from Esperanto letters. The name Stelpolvo means stardust in Esperanto.
 
 ## 试用 / Tryout
 
@@ -14,9 +14,9 @@ Stelpolvo Sans is based on letters of Cosmic language from anime *Stardust Telep
 
 ## 下载 / Download
 
-您可直接前往 [Release 页面](https://github.com/GuoPCinGitHub/StelpolvoSans/releases) 下载 TTF 文件。WOFF 文件亦有提供，可根据需求取用。
+您可前往存储库主页或 [Release 页面](https://github.com/GuoPCinGitHub/StelpolvoSans/releases)下载 TTF 文件。WOFF 文件亦有提供，可根据需求取用。
 
-You can go to [Release page](https://github.com/GuoPCinGitHub/StelpolvoSans/releases) directly to download TTF file. WOFF files are also provided, you can use according to your need.
+You can go to mainpage of repo or [Release page](https://github.com/GuoPCinGitHub/StelpolvoSans/releases) to download TTF file. WOFF files are also provided, you can use according to your need.
 
 ## 使用 / Usage
 
