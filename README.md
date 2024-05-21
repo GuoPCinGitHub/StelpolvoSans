@@ -32,9 +32,9 @@ A ~ P (a ~ p) / R ~ V (r ~ v) / Z (z) can be typed directly by keyboard.
 
 ## 许可 / License
 
-本字体依照 **SIL Open Font License 1.1** 进行许可，这意味着您可以对本字体修改并重新分发。“StelpolvoSans”为保留字体名称。详细信息请查看 [LICENSE](/LICENSE)。
+本字体依照 **SIL Open Font License 1.1** 进行许可，这意味着您可以对本字体修改并重新分发。“Stelpolvo”为保留字体名称。详细信息请查看 [LICENSE](/LICENSE)。
 
-This font is licensed under **SIL Open Font License 1.1**, which means you can modify this font and redistribute. The name "StelpolvoSans" is a Reserved Font Name. Please see [LICENSE](/LICENSE) for detailed information.
+This font is licensed under **SIL Open Font License 1.1**, which means you can modify this font and redistribute. The name "Stelpolvo" is a Reserved Font Name. Please see [LICENSE](/LICENSE) for detailed information.
 
 ## 其他 / Others
 
