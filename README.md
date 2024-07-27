@@ -35,8 +35,3 @@ A ~ P (a ~ p) / R ~ V (r ~ v) / Z (z) can be typed directly by keyboard.
 本字体依照 **SIL Open Font License 1.1** 进行许可，这意味着您可以对本字体修改并重新分发。“Stelpolvo”为保留字体名称。详细信息请查看 [LICENSE](/LICENSE)。
 
 This font is licensed under **SIL Open Font License 1.1**, which means you can modify this font and redistribute. The name "Stelpolvo" is a Reserved Font Name. Please see [LICENSE](/LICENSE) for detailed information.
-
-## 其他 / Others
-
-- 博客文章 / Article on my blog：[Stelpolvo Sans字体现已发布！](https://guopcingithub.github.io/2023/12/29/stelpolvo_sans/)
-- B站视频 / Video on bilibili：[基于动画《星灵感应》中的宇宙语字母制作的字体——Stelpolvo Sans](https://www.bilibili.com/video/BV1Zc411r79X)
