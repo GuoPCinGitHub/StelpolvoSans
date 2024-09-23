@@ -80,6 +80,7 @@ p {
 
 #content > #head {
     position: relative;
+    height: 30px;
 }
 
 #content #close {
