@@ -62,7 +62,8 @@ p {
     font-family: Inter, "LXGW Neo XiHei", sans-serif;
     font-size: 25px;
     transform: translate(-50%, -50%);
-    max-width: 85vw;
+    width: 85vw;
+    max-width: 1000px;
     max-height: 90%;
     padding: .5em;
     overflow-y: auto;
