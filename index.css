@@ -48,6 +48,10 @@ header .button {
     cursor: pointer;
 }
 
+p {
+    margin: .5em;
+}
+
 #content {
     position: absolute;
     top: 50%;
